@@ -71,8 +71,8 @@ importers:
         specifier: 50.13.0
         version: 50.13.0(@types/node@18.18.14)(aws-cdk-lib@2.100.0)(aws-cdk@2.100.0)(constructs@10.3.0)(typescript@5.5.3)
       '@guardian/content-api-models':
-        specifier: 25.0.0
-        version: 25.0.0
+        specifier: 25.1.1
+        version: 25.1.1
       '@guardian/content-atom-model':
         specifier: 4.0.1
         version: 4.0.1
@@ -4066,7 +4066,7 @@ packages:
   /@guardian/apps-rendering-api-models@10.0.0:
     resolution: {integrity: sha512-tonbINIMib4TlBYiJyBpTZ6mEANGeSwpDkv35v1KhlsLXXDLsAZ5BVaYEAbWlxCOgoJboNMD7Y7pZqZvY+kVow==}
     dependencies:
-      '@guardian/content-api-models': 25.0.0
+      '@guardian/content-api-models': 25.1.1
       '@guardian/content-atom-model': 4.0.1
       '@guardian/content-entity-model': 3.0.3
       '@guardian/story-packages-model': 2.2.0
@@ -4249,8 +4249,8 @@ packages:
       - whiskers
     dev: false
 
-  /@guardian/content-api-models@25.0.0:
-    resolution: {integrity: sha512-6QlboykRlvfo2vR2N9Z9mWjkTzuplPVEsMvkkwEZqbA21iGr1XkoIrGGlGUvLM+i67KCABMQsTki3JLEVa7EGQ==}
+  /@guardian/content-api-models@25.1.1:
+    resolution: {integrity: sha512-+YfFZ7LEjTyRFgNi4VHjTe6M9No1b/7gjqOLaV7kpj2dEYngMlAafCbI+YSamn9XeZmkVQPx1hEA2cHfPIJ6qQ==}
     dependencies:
       '@guardian/content-atom-model': 4.0.4
       '@guardian/content-entity-model': 3.0.3
@@ -16102,6 +16102,7 @@ packages:
     engines: {node: '>=0.6.0', teleport: '>=0.2.0'}
     deprecated: |-
       You or someone you depend on is using Q, the JavaScript Promise library that gave JavaScript developers strong feelings about promises. They can almost certainly migrate to the native JavaScript promise now. Thank you literally everyone for joining me in this bet against the odds. Be excellent to each other.
+
       (For a CapTP with native promises, see @endo/eventual-send and @endo/captp)
     dev: false
 
